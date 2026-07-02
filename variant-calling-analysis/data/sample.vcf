@@ -1,0 +1,20 @@
+##fileformat=VCFv4.2
+##source=synthetic-demo-data
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE1
+chr1	14653	.	A	G	87.5	PASS	DP=45;AF=0.500	GT:DP:GQ	0/1:45:99
+chr1	22001	rs1234	C	T	120.0	PASS	DP=60;AF=1.000	GT:DP:GQ	1/1:60:99
+chr1	38812	.	G	A	12.3	q10	DP=8;AF=0.250	GT:DP:GQ	0/1:8:20
+chr2	5590	.	T	G	95.2	PASS	DP=52;AF=0.480	GT:DP:GQ	0/1:52:99
+chr2	7712	.	A	AT	65.0	PASS	DP=30;AF=0.500	GT:DP:GQ	0/1:30:80
+chr2	9945	.	CT	C	70.1	PASS	DP=33;AF=0.510	GT:DP:GQ	0/1:33:85
+chr3	1002	.	G	C	5.1	q10	DP=4;AF=0.250	GT:DP:GQ	0/1:4:10
+chr3	18800	.	A	T	110.4	PASS	DP=58;AF=1.000	GT:DP:GQ	1/1:58:99
+chr3	20115	.	GAC	G	88.9	PASS	DP=40;AF=0.500	GT:DP:GQ	0/1:40:90
+chrX	4021	.	C	A	99.9	PASS	DP=48;AF=0.500	GT:DP:GQ	0/1:48:99
+chrX	7788	.	AG	A	42.0	PASS	DP=20;AF=0.480	GT:DP:GQ	0/1:20:60
+chrX	9100	.	T	C	130.0	PASS	DP=70;AF=1.000	GT:DP:GQ	1/1:70:99
