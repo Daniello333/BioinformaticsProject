@@ -32,3 +32,14 @@ Python 3.10+. Dependencies vary per project (see each `requirements.txt`);
 the sequence and variant-calling toolkits are dependency-free aside from
 `pytest`, while the RNA-seq, phylogenetics, and ML projects use
 numpy/pandas/scipy/scikit-learn/matplotlib.
+
+## Selected research modules (2026)
+
+The following directories contain **selected, inspectable source modules** from larger research projects. They are **not full application/pipeline releases**; each directory explains precisely what is and is not included.
+
+| Directory | Available code | Context |
+| --- | --- | --- |
+| [`cellscope-ml/`](cellscope-ml/) | Fold-local ANOVA gene selection and focused Python tests | scRNA-seq annotation studio and donor-aware ML evaluation |
+| [`prm-targeted-proteomics/`](prm-targeted-proteomics/) | R implementations of in-silico proteolytic digestion, precursor m/z with CAM-C, and iRT transfer, plus checks | MSc research on targeted PRM experiment planning |
+
+For full research narratives and validated exported results, see the [GitHub profile](https://github.com/Daniello333).
