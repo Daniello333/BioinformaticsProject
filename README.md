@@ -37,6 +37,8 @@ numpy/pandas/scipy/scikit-learn/matplotlib.
 
 The following directories contain **selected, inspectable source modules** from larger research projects. They are **not full application/pipeline releases**; each directory explains precisely what is and is not included.
 
+The standalone maintained copies are now in **[cellscope-ml](https://github.com/Daniello333/cellscope-ml)** and **[prm-targeted-proteomics](https://github.com/Daniello333/prm-targeted-proteomics)**. The directories below remain as historical copies; use the dedicated repositories for tests and project documentation.
+
 | Directory | Available code | Context |
 | --- | --- | --- |
 | [`cellscope-ml/`](cellscope-ml/) | Fold-local ANOVA gene selection and focused Python tests | scRNA-seq annotation studio and donor-aware ML evaluation |
